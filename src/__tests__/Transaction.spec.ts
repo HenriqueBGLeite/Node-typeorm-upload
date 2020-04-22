@@ -10,7 +10,7 @@ import app from '../app';
 
 let connection: Connection;
 
-describe('Transaction', () => {
+describe('s6', () => {
   beforeAll(async () => {
     connection = await createConnection('test-connection');
     await connection.runMigrations();
